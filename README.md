@@ -44,6 +44,8 @@ sslocal -s 11.22.33.44 -p 50003 -k “123456” -l 1080 -t 600 -m aes-256-cfb
 sslocal -c example.json
 ```
 
+在本项目中`startSS.sh`以及`stopSS.sh`为运行和关闭本地代理的脚本。使用时需要将example.json按照自己的服务器配置好。
+
 ### 1.2 GUI安装
 
 <https://github.com/shadowsocks/shadowsocks-qt5>
